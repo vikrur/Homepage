@@ -1,0 +1,107 @@
+h1 {
+    text-align: center;
+    color: #274a25;
+    border: 1px solid #126d0b;
+    border-radius: 4px;
+    font-size: 48px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+
+  h2 {
+    text-align: center;
+    line-height: 28px;
+    padding: 15px;
+    font-size: 18px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    color: #274a25;
+
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 13px;
+    margin: 20 0 10px;
+  }
+
+  button {
+    display: block;
+    margin: 20px auto;
+    background-color: #126d0b;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in-out;
+    font-weight: bold;
+  }
+
+  button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 60px;
+    background: linear-gradient(
+      to right,
+      rgb(182, 244, 146),
+      rgb(51, 139, 147)
+    );
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .navbar {
+    background: inherit;
+    border-radius: 10px;
+  }
+
+  .navbar-text {
+    padding-left: 10px;
+  }
+
+  .learn-more {
+    color: #126d0b;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .learn-more:hover {
+    text-decoration: underline;
+  }
+
+  .main {
+    margin: 0;
+  }
+
+  .faq {
+    border: 1px solid #126d0b;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .contacts {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .contacts-color {
+    color:#274a25;
+    font-style: italic;
+  }
